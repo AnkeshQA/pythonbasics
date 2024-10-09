@@ -6,8 +6,25 @@ file = open('test.txt')
 
 # get content line by line at a time readline()
 # make note that print(file.read())
-print(file.readline())
-print(file.readline())
+#print(file.readline())
+#print(file.readline())
+
+
+
+
+# print line by line using readline method
+#line = file.readline()
+#while line!= "":
+   # print(line)
+   # line = file.readline()
+
+# readlines method read in multiple line
+#value =["abc", "bommer","cat"]
+for line in file.readlines():
+    print(line)
+
+
+
 
 
 file.close()
