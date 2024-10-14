@@ -4,7 +4,7 @@
 # refer the document https://requests.readthedocs.io/en/latest/
 import requests
 from payload import *
-#created a function payload.py and imported the details so that unique id will be created & automatically it will updated
+#created a function payload.py and imported the details so that unique id will be created & automatically it will updated and deleted without any failure
 
 from apirequest import response
 
