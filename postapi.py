@@ -2,7 +2,7 @@
 # delete the book using post method
 # data is used as params here in post method
 # refer the document https://requests.readthedocs.io/en/latest/
-import requests
+
 from payload import *
 
 
@@ -26,10 +26,18 @@ config = getconfig()
 #Next step :- move from (import configparser till config.read('utilities/properties.ini') to configuration file
 
 # (config['API']['endpoint']+ this will read endpoint from properties.ini file
-add_book_response = requests.post(config['API']['endpoint']+'/Library/Addbook.php',
-    json=addBookPayload("fefrewe"),  # Call the function and use its return value directly
-    headers={"Content-Type": "application/json"}
+
+#importing resources from utilities
+from utilities.resources import *
+
+import requests
+
+url = config['API']['endpoint']+'/Library/Addbook.php' + Apiresources.addBook
+headers = {"Content-Type": "application/json"}
+add_book_response = requests.post(url,json=addBookPayload("fefrewe"), headers= headers,  # Call the function and use its return value directly
 )
+# move '/Library/Addbook.php' & '/Library/DeleteBook.php' to resouces.py file in utilities folder
+
 
 print(add_book_response.json())
 response_json = add_book_response.json()
@@ -37,9 +45,9 @@ print(type(add_book_response.json()))
 bookID = response_json['ID']
 
 #delete the book
-response_delete_book = requests.post(config['API']['endpoint']+'/Library/DeleteBook.php',json={
-    "ID" : bookID
-},headers={"Content-Type":"application/json"},)
+url1 = config['API']['endpoint'] + Apiresources.deleteBook
+headers={"Content-Type":"application/json"}
+response_delete_book = requests.post(url1,json={"ID" : bookID},headers=headers,)
 assert response_delete_book.status_code == 200
 confirm_json = response_delete_book.json()
 print(confirm_json["msg"])
