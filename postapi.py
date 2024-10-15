@@ -45,9 +45,9 @@ print(type(add_book_response.json()))
 bookID = response_json['ID']
 
 #delete the book
-url1 = config['API']['endpoint'] + Apiresources.deleteBook
+url = config['API']['endpoint'] + Apiresources.deleteBook
 headers={"Content-Type":"application/json"}
-response_delete_book = requests.post(url1,json={"ID" : bookID},headers=headers,)
+response_delete_book = requests.post(url,json={"ID" : bookID},headers=headers,)
 assert response_delete_book.status_code == 200
 confirm_json = response_delete_book.json()
 print(confirm_json["msg"])
