@@ -11,6 +11,7 @@ from payload import *
 from apirequest import response
 # import configparser --> this is moved to configurations.py file
 
+# import from configuration using import * which will import everything
 from utilities.configurations import *
 config = getconfig()
 
