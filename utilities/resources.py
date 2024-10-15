@@ -5,3 +5,6 @@
 class Apiresources:
     addBook = '/Library/Addbook.php'
     deleteBook = '/Library/DeleteBook.php'
+
+class Gitlogin:
+    user = '/user'
