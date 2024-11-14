@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a69620f-6cf1-4c2d-b540-e33d41953294" name="Changes" comment="latest changes">
-      <change afterPath="$PROJECT_DIR$/writefile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readWrite.py" beforeDir="false" afterPath="$PROJECT_DIR$/readWrite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/AnkeshQA/pythonbasics.git&quot;,
-    &quot;accountId&quot;: &quot;6b2fa22a-416f-4090-a3f9-2cb0bba519fa&quot;
+    &quot;accountId&quot;: &quot;5a0982e4-1fa0-4258-ac6e-32e91d26b645&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -46,27 +43,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.August11Sunday.executor": "Run",
-    "Python.Data_types_sunday.executor": "Run",
-    "Python.OOPS.executor": "Run",
-    "Python.constructor.executor": "Run",
-    "Python.for_loop_python.executor": "Run",
-    "Python.functions.executor": "Run",
-    "Python.if_else_condition.executor": "Run",
-    "Python.inheritance.executor": "Run",
-    "Python.readWrite.executor": "Run",
-    "Python.read_write.executor": "Run",
-    "Python.strings.executor": "Run",
-    "Python.tuple_dictonary.executor": "Run",
-    "Python.while_loop.executor": "Run",
-    "Python.writefile.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ankeshshikhar/PycharmProjects/pythonProject"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.August11Sunday.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Data_types_sunday.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOPS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.constructor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_loop_python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.if_else_condition.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.readWrite.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read_write.executor&quot;: &quot;Run&quot;,
+    &quot;Python.strings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuple_dictonary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.while_loop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.writefile.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ankeshshikhar/PycharmProjects/pythonProject&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -218,7 +215,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-8336bb23522e-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.19072.16" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
